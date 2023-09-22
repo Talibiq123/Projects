@@ -6,6 +6,7 @@
     margin: 0;
     font-family: sans-serif;
     background: #f5f6f7;
+    background-color: #000000;
   }
   
   .header {
@@ -18,6 +19,7 @@
   }
   
   .gallery {
+    background-color:  #343434;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -40,4 +42,14 @@
   .gallery::after {
     content: "";
     width: 350px;
+  }
+
+  footer {
+    max-width: 100%;
+    height: 100px;
+    background-color: #000000;
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 40px;
+    text-align: center;
   }
